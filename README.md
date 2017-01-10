@@ -13,7 +13,7 @@ using [Lattice ICE40HX](http://www.latticesemi.com/Products/FPGAandCPLD/iCE40.as
 
 # docs
 
-PLL and DDR are setup with (SB_IO and SB_PLL primitives)[http://www.clifford.at/icestorm/io_tile.html]
+PLL and DDR are setup with SB_IO and SB_PLL primitives:
 
 * [PLL details](http://www.latticesemi.com/view_document?document_id=47778)
 * [DDR details](http://www.latticesemi.com/view_document?document_id=47960)
