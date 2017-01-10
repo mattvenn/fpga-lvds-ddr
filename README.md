@@ -4,6 +4,13 @@ using [Lattice ICE40HX](http://www.latticesemi.com/Products/FPGAandCPLD/iCE40.as
 
 [The IceStorm flow (Yosys, Arachne-pnr, and IceStorm) is a fully open source Verilog-to-Bitstream flow for iCE40 FPGAs](http://www.clifford.at/icestorm/)
 
+![ddr](ddr.png)
+
+* Trace 3: system clock 12MHz
+* Trace 2: DDR clock from PLL 25Mhz
+* Trace 1: DDR differential positive
+* Trace 0: DDR differential negative
+
 # docs
 
 PLL and DDR are setup with (SB_IO and SB_PLL primitives)[http://www.clifford.at/icestorm/io_tile.html]
